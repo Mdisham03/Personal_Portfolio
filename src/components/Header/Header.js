@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../style/style.css";
 import logo from "../images/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars,faXmark } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -52,14 +52,24 @@ const Header = () => {
                   ABOUT
                 </a>
               </li>
-              
-              <FontAwesomeIcon icon={faXmark} className="fa-solid fa-bars" style={clr} onClick={closeMenu} />
-              
+
+              <FontAwesomeIcon
+                icon={faXmark}
+                className="fa-solid fa-bars"
+                style={clr}
+                onClick={closeMenu}
+              />
             </ul>
-            <FontAwesomeIcon icon={faBars} className="fa-solid fa-bars" style={clr} onClick={openMenu} />
+            <FontAwesomeIcon
+              icon={faBars}
+              className="fa-solid fa-bars"
+              style={clr}
+              onClick={openMenu}
+            />
             {/* <i className="fa-solid fa-bars" onClick={openMenu}></i> */}
           </nav>
           <div className="header-text">
+            <p style={{ fontSize: "15px" }}>بسم الله الرحمن الرحيم</p>
             <p>Web Developer</p>
             <h1 className="smlScrn">
               Hi,I'm <span>Mohamed</span> <span>Isham</span> <br />
