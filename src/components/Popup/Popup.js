@@ -1,7 +1,8 @@
 import { React, useState } from "react";
 import "../style/style.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faComments,faCircleXmark } from "@fortawesome/free-regular-svg-icons";
+import { faComments,faCircleXmark  } from '@fortawesome/free-regular-svg-icons';
+// import { faComments,faCircleXmark } from "@fortawesome/free-regular-svg-icons";
 
 
 
