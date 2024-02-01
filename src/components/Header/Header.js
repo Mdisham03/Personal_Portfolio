@@ -60,7 +60,7 @@ const Header = () => {
             {/* <i className="fa-solid fa-bars" onClick={openMenu}></i> */}
           </nav>
           <div className="header-text">
-            <p>Web Developer & UI UX</p>
+            <p>Web Developer</p>
             <h1 className="smlScrn">
               Hi,I'm <span>Mohamed</span> <span>Isham</span> <br />
               From Chennai
