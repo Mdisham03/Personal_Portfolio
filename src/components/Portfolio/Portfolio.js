@@ -11,21 +11,30 @@ const Portfolio = () => {
     <>
       <div id="portfolio">
         <div className="container">
-          <h1 className="sub-title">My Work</h1>
+          <h1 className="sub-title">My Projects</h1>
+          <p>
+            Explore my journey and skills through an interactive portfolio that
+            highlights my expertise in web development. From responsive designs
+            to dynamic web applications, this showcase reflects my passion for
+            creating visually appealing and user-friendly digital experiences.
+            Dive into a collection of projects that demonstrate my proficiency
+            in HTML, CSS, JavaScript, and React.js, showcasing my commitment to
+            delivering high-quality web solutions.
+          </p>
           <div className="work-list">
             <div className="work">
               <img src={work1} alt="Work 1" />
               <div className="layer">
                 <h3>"Interactive Portfolio Showcase" </h3>
                 <p>
-                  Explore my journey and skills
-                  through an interactive portfolio that highlights my expertise
-                  in web development. From responsive designs to dynamic web
-                  applications, this showcase reflects my passion for creating
-                  visually appealing and user-friendly digital experiences. Dive
-                  into a collection of projects that demonstrate my proficiency
-                  in HTML, CSS, JavaScript, and React.js, showcasing my
-                  commitment to delivering high-quality web solutions.
+                  Explore my journey and skills through an interactive portfolio
+                  that highlights my expertise in web development. From
+                  responsive designs to dynamic web applications, this showcase
+                  reflects my passion for creating visually appealing and
+                  user-friendly digital experiences. Dive into a collection of
+                  projects that demonstrate my proficiency in HTML, CSS,
+                  JavaScript, and React.js, showcasing my commitment to
+                  delivering high-quality web solutions.
                 </p>
                 <a href="#header">
                   <FontAwesomeIcon icon={faUpRightFromSquare} />
@@ -61,9 +70,10 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
-          <a href="#contact" className="btn">
+          <p  className="btn loading">Loading...</p>
+          {/* <a href="#contact" className="btn">
             Loading....
-          </a>
+          </a> */}
         </div>
       </div>
       <hr />

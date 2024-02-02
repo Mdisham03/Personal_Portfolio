@@ -99,8 +99,7 @@ const About = () => {
                 <li>
                   <span style={{ fontSize: "15px" }}>Database Management</span>
                   <ul>
-                    <li>
-                      
+                    <li>                      
                        Basic knowledge of databases like <br/><br/><FontAwesomeIcon icon={faDatabase} />&nbsp;MySQL
                     </li>
                   </ul>
@@ -115,22 +114,25 @@ const About = () => {
             >
               <ul>
                 <li>
-                  <span>2023</span>
-                  <br />
+                  <span>2020-2023</span>
+                  <br />&nbsp;
+                  <br />&nbsp;
                   <FontAwesomeIcon icon={faGraduationCap} />
                   &nbsp; BCA Hindusthan College of Art's and Science From
                   Coimbatore-641001
                 </li>
                 <li>
-                  <span>2020</span>
-                  <br />
+                  <span>2019-2020</span>
+                  <br />&nbsp;
+                  <br />&nbsp;
                   <FontAwesomeIcon icon={faGraduationCap} />
                   &nbsp; XII (12th) Imam Shafi(Rah) Matric, Hr, Sec, School From
                   Adirampattinam-614701
                 </li>
                 <li>
-                  <span>2018</span>
-                  <br />
+                  <span>2017-2018</span>
+                  <br />&nbsp;
+                  <br />&nbsp;
                   <FontAwesomeIcon icon={faGraduationCap} />
                   &nbsp; X (10th) Imam Shafi(Rah) Matric, Hr, Sec, School From
                   Adirampattinam-614701

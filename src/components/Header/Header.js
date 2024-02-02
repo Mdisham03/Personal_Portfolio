@@ -69,7 +69,7 @@ const Header = () => {
             {/* <i className="fa-solid fa-bars" onClick={openMenu}></i> */}
           </nav>
           <div className="header-text">
-            <p><p style={{ fontSize: "17px" }}>بسم الله الرحمن الرحيم</p>Web Developer</p>
+            <p><p style={{ fontSize: "16px" }}>بسم الله الرحمن الرحيم</p>Web Developer</p>
             <h1 className="smlScrn">
               Hi,I'm <span>Mohamed</span> <span>Isham</span> <br />
               From Chennai

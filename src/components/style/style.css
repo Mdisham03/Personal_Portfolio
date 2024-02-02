@@ -295,6 +295,10 @@ nav ul li a:hover::after {
   height: 100%;
 }
 
+.btn.loading{
+  margin-top: 10%;
+}
+
 .btn {
   display: block;
   margin: 50px auto;

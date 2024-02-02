@@ -1,6 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPaperPlane, faPhoneVolume } from "@fortawesome/free-solid-svg-icons";
+import { faGithub} from "@fortawesome/free-brands-svg-icons";
 
 import {
   faFacebook,
@@ -41,6 +42,9 @@ const Contact = () => {
               </a>
               <a href="https://www.linkedin.com/in/mohamedisham/">
                 <FontAwesomeIcon icon={faLinkedin} />
+              </a>
+              <a href="https://github.com/Mdisham03">
+                <FontAwesomeIcon icon={faGithub} />
               </a>
             </div>
           </div>
