@@ -39,7 +39,7 @@ const Header = () => {
               </li>
               <li>
                 <a href="#portfolio" onClick={closeMenu}>
-                  PROJECT
+                  PROJECTS
                 </a>
               </li>
               <li>

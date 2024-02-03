@@ -111,7 +111,7 @@ const About = () => {
                     </span>
                     <ul>
                       <li>
-                        Basic knowledge of databases like <br />
+                        Basic Knowledge of Databases Like <br />
                         <br />
                         <FontAwesomeIcon icon={faDatabase} />
                         &nbsp;MySQL
