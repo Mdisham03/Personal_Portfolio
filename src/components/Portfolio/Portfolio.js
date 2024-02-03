@@ -13,13 +13,13 @@ const Portfolio = () => {
         <div className="container">
           <h1 className="sub-title">My Projects</h1>
           <p>
-            Explore my journey and skills through an interactive portfolio that
-            highlights my expertise in web development. From responsive designs
-            to dynamic web applications, this showcase reflects my passion for
-            creating visually appealing and user-friendly digital experiences.
-            Dive into a collection of projects that demonstrate my proficiency
-            in HTML, CSS, JavaScript, and React.js, showcasing my commitment to
-            delivering high-quality web solutions.
+            Explore My Journey And Skills Through An Interactive Portfolio That
+            Highlights My Expertise In Web Development. From Responsive Designs
+            To Dynamic Web Applications, This Showcase Reflects My Passion For
+            Creating Visually Appealing And User-Friendly Digital Experiences.
+            Dive Into A Collection Of Projects That Demonstrate My Proficiency
+            In HTML, CSS, Javascript, And React.Js,Showcasing My Commitment To
+            Delivering High-Quality Web Solutions.
           </p>
           <div className="work-list">
             <div className="work">
@@ -27,14 +27,14 @@ const Portfolio = () => {
               <div className="layer">
                 <h3>"Interactive Portfolio Showcase" </h3>
                 <p>
-                  Explore my journey and skills through an interactive portfolio
-                  that highlights my expertise in web development. From
-                  responsive designs to dynamic web applications, this showcase
-                  reflects my passion for creating visually appealing and
-                  user-friendly digital experiences. Dive into a collection of
-                  projects that demonstrate my proficiency in HTML, CSS,
-                  JavaScript, and React.js, showcasing my commitment to
-                  delivering high-quality web solutions.
+                  Explore My Journey And Skills Through An Interactive Portfolio
+                  That Highlights My Expertise In Web Development. From
+                  Responsive Designs To Dynamic Web Applications, This Showcase
+                  Reflects My Passion For Creating Visually Appealing And
+                  User-Friendly Digital Experiences. Dive Into A Collection Of
+                  Projects That Demonstrate My Proficiency In HTML, CSS,
+                  Javascript, And React.Js,Showcasing My Commitment To
+                  Delivering High-Quality Web Solutions.
                 </p>
                 <a href="#header">
                   <FontAwesomeIcon icon={faUpRightFromSquare} />
@@ -70,7 +70,7 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
-          <p  className="btn loading">Loading...</p>
+          <p className="btn loading">Loading...</p>
           {/* <a href="#contact" className="btn">
             Loading....
           </a> */}

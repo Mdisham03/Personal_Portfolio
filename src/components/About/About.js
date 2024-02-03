@@ -31,10 +31,10 @@ const About = () => {
             <div className="about-col-2">
               <h1 className="sub-title">About Me</h1>
               <p>
-                Hello there! I'm Mohamed Isham, a passionate and creative web
-                developer based in Chennai. My journey into the world of coding
-                started with a curious mind and a determination to bring ideas
-                to life through the web.
+                Hello There! I'M Mohamed Isham, A Passionate And Creative Web
+                Developer Based In Chennai. My Journey Into The World Of Coding
+                Started With A Curious Mind And A Determination To Bring Ideas
+                To Life Through The Web.
               </p>
               <div className="tab-titles">
                 <p
