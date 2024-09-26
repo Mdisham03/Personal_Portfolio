@@ -9,7 +9,7 @@ import {
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import "../style/style.css";
-import cv from "../Mohamed_CV.pdf";
+import cv from "../Mohamed Cv.pdf";
 
 const iconsColor={
     color:'red'

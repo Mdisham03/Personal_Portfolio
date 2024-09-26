@@ -1,7 +1,7 @@
 import { React, useState } from "react";
 import "../style/style.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faComments,faCircleXmark  } from '@fortawesome/free-regular-svg-icons';
+import { faComments  } from '@fortawesome/free-regular-svg-icons';
 // import { faComments,faCircleXmark } from "@fortawesome/free-regular-svg-icons";
 
 
@@ -49,15 +49,18 @@ const Popup = () => {
             placeholder="Your Message"
             required
           ></textarea>
+          <button onClick={closePopup} className="btn btn2">
+            Close
+          </button>
           <button type="submit" className="btn btn2">
             Submit
           </button>
                    
         </form>
-        <button
+        {/* <button
           className="pop"
           onClick={closePopup}
-        ><FontAwesomeIcon icon={faCircleXmark} id="cancel-popup" /></button>
+        ><FontAwesomeIcon icon={faCircleXmark} id="cancel-popup" /></button> */}
       </div>
       <button className="add-btn " id="add-btn-pop" onClick={openPopup}>
         <FontAwesomeIcon icon={faComments} />
